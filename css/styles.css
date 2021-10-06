@@ -43,14 +43,14 @@ h1 {
 }
 #contact {
     height: 120vh;
-    background-image: linear-gradient( rgba(255, 255, 255, 0.486), rgba(255, 255, 255, 1) ), url("/pexels-photo-8052210.jpeg");
+    background-image: linear-gradient( rgba(255, 255, 255, 0.486), rgba(255, 255, 255, 1) ), url("../pexels-photo-8052210.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
 }
 #about {
     height: 120vh;
-    background-image: linear-gradient( rgba(230, 230, 230, 0.3), rgba(255, 255, 255, 1) ), url("/IMG_20210914_104332_509.jpg");
+    background-image: linear-gradient( rgba(230, 230, 230, 0.3), rgba(255, 255, 255, 1) ), url("../IMG_20210914_104332_509.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
