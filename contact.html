@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP STYLING -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
+    <title>Mateo Coetzee</title>
+</head>
+
+<body>
+    <div class="contact text-center">
+        <a class="contact-icon" href="contact.html"><i class="fas fa-mug-hot fa-3x"></i></a>
+        <p>CONTACT</p>
+    </div>
+
+    <!-- NAVIGATION -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="projects.html">PROJECTS</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+    <span class="menu" onclick="openNav()"><i class="fas fa-bars fa-3x"></i></span>
+
+    <header id="contact" class="text-center">
+        <!-- HEADER CONTENT -->
+        <div class="header-text">
+            <h1 class="l-space-lg">CONTACT</h1>
+            <p class="lead l-space-sm">LET'S WORK TOGETHER ON SOMETHING MEANINGFUL AND VALUABLE</p>
+            <div class="head-instruction">
+                <hr>
+                <p class="l-space-sm">SCROLL</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTACT FORM -->
+    <form>
+        <h2 class="display-5 text-center l-space-lg">CONTACT FORM</h2>
+        <p class="lead l-space-sm text-center">PLEASE FILL OUT HE FORM BELOW, AND I WILL GET BACK TO YOU AS SOON AS POSSIBLE.</p>
+        <div class="mb-3">
+            <label for="name" class="form-label l-space-sm">NAME</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Please enter your name">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label l-space-sm">EMAIL ADDRESS</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Please enter your email address">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label l-space-sm">MESSAGE</label>
+            <textarea name="message" id="message" class="form-control" cols="30" rows="10" placeholder="Please explain what kind of project you are looking to create. (no need to get too in-depth)"></textarea>
+        </div>
+        <button type="submit" class="btn btn-lg btn-outline-dark">SEND</button>
+    </form>
+
+    <!-- FOOTER -->
+    <footer class="text-center">
+        <p class="lead l-space-sm maroon">I WOULD LOVE TO HEAR ABOUT YOUR PROJECT.</p>
+        <h2 class="display-4">SO LET'S GET IN TOUCH AND HAVE A COFFEE!</h2>
+        <a href="contact.html" class="btn btn-lg btn-outline-light">CONTACT ME <i class="fas fa-mug-hot"></i></a>
+        <br>
+        <p class="lead l-space-lg">&copy; 2021 Mateo Coetzee</p>
+    </footer>
+</body>
+
+<!-- BOOTSTRAP FUNCTIONALITY -->
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/nav.js"></script>
+<script src="https://kit.fontawesome.com/8633e4cab9.js" crossorigin="anonymous"></script>
+</html>

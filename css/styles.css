@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    font-weight: 900;
+    font-size: 120px;
+}
+.m-10 {
+    margin: 0 1px;
+}
+.m-0 {
+    margin: 0;
+    background-color: black;
+    height: 2px;
+}
+.l-space-lg {
+    letter-spacing: 8px;
+}
+.l-space-sm {
+    letter-spacing: 4px;
+}
+.maroon {
+    color: maroon;
+}
+/* HEADER/INTRODUCTION */
+#home {
+    height: 120vh;
+    background-image: linear-gradient( rgba(230, 230, 230, 0.3), rgba(255, 255, 255, 1) ), url("/journal.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#project {
+    height: 120vh;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.486), rgba(255, 255, 255, 1) ), url("/Screenshot 2021-10-06 151933.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#contact {
+    height: 120vh;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.486), rgba(255, 255, 255, 1) ), url("/pexels-photo-8052210.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#about {
+    height: 120vh;
+    background-image: linear-gradient( rgba(230, 230, 230, 0.3), rgba(255, 255, 255, 1) ), url("/IMG_20210914_104332_509.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.header-text {
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+}
+.head-instruction {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 40%;
+    top: 180%;
+    transform: translate(-50%, -50%);
+    transform: rotate(270deg);
+}
+.head-instruction hr {
+    width: 150px;
+    margin-right: 10px;
+}
+/* PROJECTS */
+.projects {
+    padding: 0 10%;
+}
+.project-display {
+    padding: 10% 0;
+    background-position-x: -900%;
+}
+.project-display:hover {
+    transition: all 1.2s;
+    background-image: linear-gradient(90deg, rgba(230, 230, 230, 0.2), rgba(255, 255, 255, 1) ), url("/proj-placeholder.jpeg");
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+}
+.project-display:hover .expand {
+    transition: 1.2s;
+    width: 50%;
+}
+.project-display:hover .lead {
+    transform: 1.2s;
+    color: maroon;
+}
+.proj-num {
+    display: flex;
+    flex-direction: row;
+}
+.proj-num hr {
+    height: 3px;
+    width: 40px;
+    margin-right: 10px;
+    background-color: black;
+    opacity: 0.5;
+}
+.proj-info {
+    padding: 0 15%;
+}
+.proj-view {
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+.proj-view hr {
+    height: 3px;
+    width: 40px;
+    background-color: black;
+    opacity: 0.5;
+}
+/* FOCUS */
+.focus {
+    padding: 10% 15%;
+}
+/* SKILLS */
+.skills {
+    padding: 10% 15%;
+}
+.skills h2 {
+    padding-bottom: 30px;
+}
+/* BIO */
+.bio {
+    padding: 10% 15%;
+}
+/* FOOTER */
+footer {
+    background: linear-gradient( rgb(255, 255, 255), hsl(0, 0%, 30%), hsl(0, 0%, 0%) );
+    color: white;
+    padding: 5% 10%;
+    margin-top: 5%;
+}
+
+.contact {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+.contact-icon {
+    color: black;
+}
+/* FORM */
+form {
+    padding: 5% 20%;
+}
+/* ABOUT */
+.about-info {
+    padding: 5% 15%;
+}
+.about-info h2 {
+    padding: 40px 0;
+}
+.about-info p {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
