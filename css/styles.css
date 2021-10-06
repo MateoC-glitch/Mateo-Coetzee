@@ -29,7 +29,7 @@ h1 {
 /* HEADER/INTRODUCTION */
 #home {
     height: 120vh;
-    background-image: linear-gradient( rgba(230, 230, 230, 0.3), rgba(255, 255, 255, 1) ), url("\journal.jpeg");
+    background-image: linear-gradient( rgba(230, 230, 230, 0.3), rgba(255, 255, 255, 1) ), url("./journal.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
